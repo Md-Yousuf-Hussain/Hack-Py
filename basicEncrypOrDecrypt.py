@@ -1,7 +1,7 @@
 import random
 import string
 
-# Generate the character sets and key mapping
+## Generate the character sets and key mapping
 char = list(string.punctuation + string.digits + string.ascii_letters + " ")
 key = char.copy()
 random.shuffle(key)
